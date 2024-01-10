@@ -4,6 +4,6 @@
 
 @layer base{
     body{
-        @apply bg-slate-800
+        @apply bg-cyan-700 p-0 m-0
     }
 }
