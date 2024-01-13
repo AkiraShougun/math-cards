@@ -4,6 +4,6 @@
 
 @layer base{
     body{
-        @apply bg-cyan-700 p-0 m-0
+        @apply p-0 m-0 bg-[rgb(15_23_42)]
     }
 }

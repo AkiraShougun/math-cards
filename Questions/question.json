@@ -2,21 +2,25 @@
     {
         "title":"Title Example",
         "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","Option 4"]
+        "options":["Option 1","Option 2","Option 3","Option 4"],
+        "correct":2
     },
     {
         "title":"Title Example 2",
         "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","Option 4"]
+        "options":["Option 1","Option 2","Option 3","Option 4"],
+        "correct":3
     },
     {
         "title":"Title Example 3",
         "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","Option 4"]
+        "options":["Option 1","Option 2","Option 3","LOL"],
+        "correct":1
     },
     {
-        "title":"Title Example 4",
+        "title":"Test 4",
         "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","Option 4"]
+        "options":["Option 1","Option 2","Option 3","Option 4"],
+        "correct":0
     }
 ]
