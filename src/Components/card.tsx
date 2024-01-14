@@ -21,7 +21,6 @@ const Card = (props:{index:number}) => {
 
   function reply(ind:number){
     if (ind === questions[props.index].correct){
-      console.log("working")
       setContent("This is correct")
     }
     else{
@@ -36,8 +35,7 @@ const Card = (props:{index:number}) => {
   function renderButtons(){
     const buttons = []
     for(let [index,option] of questions[props.index].options.entries()){
-      buttons.push(<button key={index} className="grid border-solid outline rounded-md" onClick={() => reply(index)}>{option}</button>)
-      console.log(<button key={index} className="grid border-solid outline rounded-md" onClick={() => reply(index)}>{option}</button>)
+      buttons.push(<button key={index} className="grid border-solid outline rounded-md" onClick={() => reply(index)}><Tex block>{option}</Tex></button>)
       
       }
     return buttons

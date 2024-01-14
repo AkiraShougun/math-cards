@@ -1,26 +1,38 @@
 [
     {
-        "title":"Title Example",
-        "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","Option 4"],
+        "title":"Algebra",
+        "problem":" 2x+3=1 ,x=?",
+        "options":["1","2","-1","3"],
         "correct":2
     },
     {
-        "title":"Title Example 2",
-        "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","Option 4"],
-        "correct":3
-    },
-    {
-        "title":"Title Example 3",
-        "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","LOL"],
+        "title":"Calculus",
+        "problem":"\\frac{d }{dx} \\cos(\\sin x)",
+        "options":["\\sin (\\cos x)(-\\cos x)","\\sin (\\sin x)(-\\cos x)","\\cos (\\sin x)(\\cos x)","\\sin (\\sin x)"],
         "correct":1
     },
     {
-        "title":"Test 4",
-        "problem":" \\int dx ",
-        "options":["Option 1","Option 2","Option 3","Option 4"],
+        "title":"Number Theory",
+        "problem":"gcd(24,143)",
+        "options":["13","5","1","7"],
         "correct":0
+    },
+    {
+        "title":"Calculus",
+        "problem":"\\int_{-\\infty}^{\\infty} \\frac{\\cos x}{x^2+1}",
+        "options":["\\text{Diverges}","\\pi","e","\\pi/e"],
+        "correct":3
+    },
+    {
+        "title":"Algebraic Topology",
+        "problem":"\\text{Let } M \\text{ be a 71-dimensional manifold then the cohomology } \\\\  H^{2}(M) \\text{ is isomorphic to} ",
+        "options":["Spec(\\mathbb{Z})","H_{69}(M)","H^{4}(M)","H^{69}(M)"],
+        "correct":3
+    },
+    {
+        "title":"Algebraic Topology",
+        "problem":"\\text{Let } M \\text{ be a 71-dimensional manifold then the cohomology } \\\\  H^{2}(M) \\text{ is isomorphic to} ",
+        "options":["Spec(\\mathbb{Z})","H_{69}(M)","H^{4}(M)","H^{69}(M)"],
+        "correct":3
     }
 ]
